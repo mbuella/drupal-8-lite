@@ -1,0 +1,9 @@
+<?php
+
+function drup_al_theme($existing, $type, $theme, $path) {
+  return [
+    'post_list' => [
+      'variables' => ['posts' => NULL],
+    ],
+  ];
+}
