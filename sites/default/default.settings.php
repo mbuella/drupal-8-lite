@@ -798,3 +798,4 @@ $settings['install_profile'] = 'minimal';
 $config_directories['sync'] = 'sites/default/files/config/sync';
 $config_directories['admin_toolbar'] = 'sites/default/files/config/admin_toolbar';
 $config_directories['translation'] = 'sites/default/files/config/translation';
+$config_directories['content'] = 'sites/default/files/config/content';
