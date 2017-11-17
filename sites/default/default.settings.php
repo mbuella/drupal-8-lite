@@ -795,9 +795,4 @@ $databases['default']['default'] = array (
 );
 $settings['install_profile'] = 'minimal';
 
-$config_root_dir = 'sites/default/files/config/';
-$config_directories = array(
-  'sync4' => $config_root_dir . 'sync4',
-  'sync5' => $config_root_dir . 'sync5',
-  'sync6' => $config_root_dir . 'sync6',
-);
+$config_directories['sync'] = 'sites/default/files/config/sync';
